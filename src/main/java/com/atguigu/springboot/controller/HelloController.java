@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class HelloController {
 
-    @GetMapping("/abc")
+    @GetMapping("/hello")
     public String abc(Model model, HttpServletRequest request) {
         //获取上下文环境绝对路径
         request.getSession().getServletContext().getRealPath("/");
