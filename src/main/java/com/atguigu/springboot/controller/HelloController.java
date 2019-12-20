@@ -13,7 +13,7 @@ public class HelloController {
     public String abc(Model model, HttpServletRequest request) {
         //获取上下文环境绝对路径
         request.getSession().getServletContext().getRealPath("/");
-        model.addAttribute("hello", "你好");
+        model.addAttribute("hello", "你好2222222");
         return "success";
     }
 }
